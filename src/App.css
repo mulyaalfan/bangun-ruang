@@ -1,0 +1,91 @@
+body{
+  background-color: #F4f4f4;
+}
+.App {
+  background-color: #F4f4f4;
+  text-align: center;
+  border: 1px solid #EEE;
+  border-radius: 8px;
+  padding: 20px;
+  width: 350px;
+  box-shadow: 0px 2px 2px #CCC;
+  text-align: justify;
+  font-family: 'Courier New';
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.Jenis {
+  font-family: monospace;
+  background-color: #373737;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  width: 235px;
+  border-style: solid;
+  border-color: #6d6e6a;
+  font-size: 12px;
+}
+
+.Hasil {
+  text-align: left;
+  padding: 3px;
+  background-color: #dcd0c0;
+  color: #373737;
+  border: 2px solid #373737;
+  box-shadow: 0px 2px 2px #CCC;
+}
+button {
+  font-family: "Courier New";
+  border-style: solid;
+  width: 100%;
+  width: 100px;
+  background-color: #c0b283;
+  border: none;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
